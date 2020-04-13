@@ -35,24 +35,25 @@ class Yusha extends Game{
 }
 
 class Wizard extends Game{
-    constructor(name, HP, MP, weapon)
+    constructor(name, HP, MP, weapon){
     super(name, HP, MP, weapon);
-
+    }
     magic() {
         console.log(`${this._name}が魔法をかけました。`);
     }
-｝
-
-class  extends Game{
-        constructor(name, HP, MP, weapon)
-        super(name, HP, MP, weapon);
-
-
-
-class Enemy extends Game{
-
-constructor(name, HP, MP, weapon) {
-    super(name, HP, MP, weapon);
 }
 
+class healer extends Game{
+        constructor(name, HP, MP, weapon){
+        super(name, HP, MP, weapon);    
+        }
+    recover() {
+        console.log(`${this._name}が回復させました。`);
+    }
+}
+
+
+
+class Enemy{
+    
 }
