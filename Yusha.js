@@ -31,14 +31,23 @@ class Game {
 
 class Yusha extends Game{
     constructor(name, HP, MP, weapon)
+    super(name, HP, MP, weapon);
 }
 
-class Yusha extends Game{
+class Wizard extends Game{
     constructor(name, HP, MP, weapon)
+    super(name, HP, MP, weapon);
 
     magic() {
         console.log(`${this._name}が魔法をかけました。`);
     }
+｝
+
+class  extends Game{
+        constructor(name, HP, MP, weapon)
+        super(name, HP, MP, weapon);
+
+
 
 class Enemy extends Game{
 
